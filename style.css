@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap");
+body {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  /* height: 717px; */
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f5fcff;
+  margin-bottom: 170px;
+  font-family: "Poppins", sans-serif;
+}
+.headContainer {
+  margin: auto;
+  width: 80%;
+  padding-top: 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom div {
+  width: 563px;
+  font-size: 18px;
+  margin-top: 150px;
+}
+.bottom div h1 {
+  font-size: 42px;
+}
+.hbutton {
+  border: none;
+  padding: 10px 55px;
+  background-color: white;
+  box-shadow: 0px 1px 5px rgb(180, 176, 176);
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.mockup {
+  width: 700px;
+  width: 50%;
+  margin-top: 70px;
+}
+.fbutton {
+  border: none;
+  padding: 17px 88px;
+  background-color: white;
+  /* background-color: hsl(322, 100%, 66%); */
+  background-color: hsl(312deg 79% 62%);
+  color: white;
+  box-shadow: 0px 1px 5px rgb(180, 176, 176);
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.main {
+  font-size: 18px;
+  width: 90%;
+  margin: auto;
+}
+header p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: auto;
+  padding: 50px;
+  margin-bottom: 30px;
+
+  border-radius: 12px;
+  box-shadow: 0px 1px 8px rgb(211, 209, 209);
+}
+
+.card div {
+  width: 50%;
+}
+.card img {
+  width: 30%;
+}
+
+#box {
+  text-align: center;
+  margin: auto;
+  width: 47%;
+  padding: 30px 40px;
+  padding-bottom: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 8px rgb(211 209 209);
+  background-color: white;
+  position: relative;
+  top: 80px;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 160px 0 60px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+footer img {
+  margin-left: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+.fbody {
+  display: flex;
+  align-items: flex-start;
+}
+.fbody > div {
+  flex: 1;
+}
+a {
+  text-decoration: none;
+}
+.footerIcon {
+  display: flex;
+}
+.ficon {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  color: white;
+  display: inline-block;
+}
+footer p {
+  text-align: right;
+  margin-right: 50px;
+  font-size: 13px;
+}
+li img {
+  height: 20px;
+  width: 20px;
+  transform: translateX(-35px);
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bottom div {
+    width: 95%;
+    text-align: center;
+  }
+  .mockup {
+    width: 95%;
+  }
+
+  .fbody {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 750px) {
+  .top {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mockup {
+    width: 95%;
+  }
+}
